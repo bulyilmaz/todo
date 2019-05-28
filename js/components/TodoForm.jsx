@@ -9,7 +9,6 @@ class TodoForm extends React.Component {
         };
 
         this.onChange = this.onChange.bind(this);
-        this.onClick = this.onClick.bind(this);
     }
 
     onChange(event) {
@@ -18,15 +17,11 @@ class TodoForm extends React.Component {
         });
     }
 
-    onClick() {
-        this.props.addItem(this.state.value);
-    }
-
     render() {
         return (
             <React.Fragment>
                 <input onChange={ this.onChange }/>
-                <button onClick={ this.onClick }>Add</button>
+                <button onClick={ event => this.props.addItem(this.state.value) }>Add</button>
             </React.Fragment>
         );
     }
