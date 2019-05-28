@@ -16,6 +16,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bulyilmaz/todo.git"
+    "url": "git+https://github.com/bulyilmaz/todo-redux.git"
   }
 }
