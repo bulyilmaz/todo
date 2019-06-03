@@ -1,4 +1,4 @@
-### To Do App with React & Redux
+### To Do App with React & Redux & Browserify
 
 `cd /path/to/todo`
 
